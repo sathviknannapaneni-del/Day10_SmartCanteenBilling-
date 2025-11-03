@@ -1,0 +1,21 @@
+SUMMARY OF THE CODE:
+
+The Smart Canteen Billing System is a C program designed to automate the billing process in a college canteen.
+
+* It serves multiple customers in a day, allows each customer to order multiple items, and calculates both individual and total canteen revenue.
+* The program first asks for the total number of customers.
+* For each customer, it displays a fixed menu with item codes and prices.
+* Then, it asks how many items the customer wants to order and uses a loop to repeatedly take each item code and quantity.
+* Using a switch statement, it determines the price of each selected item, multiplies it by the quantity, and adds it to the customer’s total bill.
+* If the customer’s total exceeds ₹500, a 10% discount is applied automatically.
+* The program then displays the customer’s detailed bill (items ordered, total amount, discount, and final payable amount).
+* After serving all customers, it prints a canteen summary showing the total number of customers served and the total revenue collected that day.
+
+
+This program demonstrates practical use of:
+
+* Loops for repetitive input/output operations
+* Switch statements for decision-making based on item codes
+* If-else logic for applying discounts
+* Cumulative calculations to track total revenue
+* It’s an excellent example of how control flow and basic arithmetic can be combined to build a real-world billing system using only core C programming conce
